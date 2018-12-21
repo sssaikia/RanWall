@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "224226235255",
+    "firebase_url": "https://guwm-ffbd8.firebaseio.com",
+    "project_id": "guwm-ffbd8",
+    "storage_bucket": "guwm-ffbd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224226235255:android:9f80094e01ff27ed",
+        "android_client_info": {
+          "package_name": "com.sstudio.ranwall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224226235255-n3gbld85o0irm0shhhdi4g6hg6q5np2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sstudio.ranwall",
+            "certificate_hash": "c7d977f4db42455a09ecae6b42749f123a59c02b"
+          }
+        },
+        {
+          "client_id": "224226235255-bve7cojd78qqni6u4k4jjuqjl57fk3d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sstudio.ranwall",
+            "certificate_hash": "af8191f12b079aed472acf99318d8f3851bbebcb"
+          }
+        },
+        {
+          "client_id": "224226235255-3p1b9ghvviv17nqti32nha29s5tpjuhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjTJZD3mR8ysFROVJzSZ6U-Xaz-siJnTs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224226235255-3p1b9ghvviv17nqti32nha29s5tpjuhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224226235255:android:9f8e36e056cf0d41",
+        "android_client_info": {
+          "package_name": "sstudio.com.guwm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224226235255-ic7eunpq2sia4v7hm06jb1p9rh4bf9fv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sstudio.com.guwm",
+            "certificate_hash": "af8191f12b079aed472acf99318d8f3851bbebcb"
+          }
+        },
+        {
+          "client_id": "224226235255-3p1b9ghvviv17nqti32nha29s5tpjuhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjTJZD3mR8ysFROVJzSZ6U-Xaz-siJnTs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224226235255-3p1b9ghvviv17nqti32nha29s5tpjuhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

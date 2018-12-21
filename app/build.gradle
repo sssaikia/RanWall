@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'key1'
+            keyPassword 'ssaikia3#'
+            storeFile file('C:/Users/Alan/RanWall.jks')
+            storePassword 'ssaikia3#'
+        }
+    }
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.sstudio.ranwall"
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionCode 102
+        versionName "1.02"
+        resConfigs "en"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable true
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.android.support:design:27.1.1'
+    //implementation 'com.google.android.gms:play-services-ads:15.0.0'
+}
+
+
+//apply plugin: 'com.google.gms.google-services'
